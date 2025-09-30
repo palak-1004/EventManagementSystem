@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Event Management System</h1>
+    <div class="container">
+        <!-- Event -->
+        <div class="card">
+            <h2>Create Event</h2>
+            <form id="event-form">
+                <input type="text" id="title" placeholder="Event Title" required>
+                <textarea id="description" placeholder="Event Description" required></textarea>
+                <input type="text" id="venue" placeholder="Venue" required>
+                <input type="datetime-local" id="date" required>
+                <input type="number" id="capacity" placeholder="Capacity" required>
+                <input type="number" id="price" placeholder="Ticket Price" required>
+                <button type="submit">Save Event</button>
+            </form>
+        </div>
+
+        <!--  Available Events -->
+        <div class="card">
+            <h2>Available Events</h2>
+            <div id="event-list"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
