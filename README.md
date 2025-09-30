@@ -6,7 +6,7 @@ This project allows users to create, manage, and promote events, handle ticket s
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Demo](https://your-demo-link-here.com)
+👉 [View Live Demo](https://palak-1004.github.io/EventManagementSystem/)
 
 
 
