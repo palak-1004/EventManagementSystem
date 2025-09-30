@@ -32,6 +32,9 @@ This project allows users to create, manage, and promote events, handle ticket s
 ## 📂 Project Structure  
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
